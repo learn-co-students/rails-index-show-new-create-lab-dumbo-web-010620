@@ -1,0 +1,9 @@
+<h1> Lots O' Coupons<h1>
+<h2>Heres a list.</h2>
+
+<% @coupons.each do |coupon|%>
+    <ul>
+        <li><%= link_to coupon.coupon_code, %></li>
+        <li><%= coupon.store %></li><br>
+    </ul>
+<% end %>

@@ -14,6 +14,10 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# Faker, a port of Data::Faker from Perl, 
+# sis used to easily generate fake data: names, addresses, phone numbers, etc.
+gem 'faker', '~> 2.10', '>= 2.10.1'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
